@@ -1,0 +1,51 @@
+<!-- im going to devolp the game named Rock Paper Scissors Game -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="choice-container">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.jpg" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissor.jpg" alt="scissors">
+        </div>
+    </div> 
+
+    <div class="result">
+        <div>
+            <h2>Your Score: <span id="yourScore">0</span></h2>
+        </div>
+        <div>
+            <h2>Computer Score: <span id="computerScore">0</span></h2>
+        </div>
+        <div>
+            <h2>Match Draw: <span id="matchDraw">0</span></h2>
+        </div>
+        <div class="msg-container" id="msg-container">
+            <h2 id="msg"><span>Lets Play</span></h2>
+        </div>
+    </div>
+
+    <div class="reset">
+        <button id="reset">Reset</button>
+    </div>
+
+    <div class="footer">
+        <h3>Developed by <a href="#">Muhammd Adnan Shakeel</a></h3>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
